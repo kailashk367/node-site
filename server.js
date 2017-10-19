@@ -27,7 +27,7 @@ app.listen(port, function(){
 });
 
 app.get('/', function(req, res){
-	res.send("hello world from node js");
+	res.send("hello World");
 });
 
 ////////////end express///////
