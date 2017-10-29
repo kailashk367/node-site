@@ -20,14 +20,14 @@ server.listen(8181, function(){
 
 var express = require('express');
 var app = express();
-var port = 8181;
+var port = 8282;
 
 //create a router access
 var router = require('./app/routes');
 app.use('/', router);
 
 app.listen(port, function(){
-	console.log("App Started...");
+	console.log("App Started..." + port);
 });
 
 ////////////end express///////
